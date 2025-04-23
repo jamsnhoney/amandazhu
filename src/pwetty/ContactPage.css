@@ -50,11 +50,10 @@ background-color: rgba(0, 0, 0, 0.05); /* subtle highlight */
     justify-content: center;
 }
 .contact-right img {
-    width: 25vw;
+    width: 40vw;
     height: auto;
-    justify-content: flex-end;
     display: flex;
-    padding-left: 20%;
+    padding-right: 20%;
     padding-top: 15%;
 
 }

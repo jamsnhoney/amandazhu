@@ -2,6 +2,7 @@ import React from "react";
 import '../pwetty/ContactPage.css'
 
 import meee from '../assets/mememe.png'
+import meee2 from '../assets/abighead.png'
 
 function ContactPage() {
   return (
@@ -34,7 +35,7 @@ function ContactPage() {
         </div>
       </div>
       <div className="contact-right">
-        <img src={meee}></img>
+        <img src={meee2}></img>
       </div>
     </div>
   );
