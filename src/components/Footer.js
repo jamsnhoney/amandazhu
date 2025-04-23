@@ -28,6 +28,11 @@ function Footer() {
                 <img src={turtle}></img>
 
 
+                <a href="https://us.jellycat.com/sensational-seafood-shrimp/" target="_blank" rel="noopener noreferrer">
+                    <img src={shrimp} alt="shromp" className="clickable-image" />
+                </a>
+
+
             </div>
 
         </main>

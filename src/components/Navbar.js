@@ -6,9 +6,9 @@ import "../pwetty/Navbar.css"
 import logo_img from "../assets/logo.png"
 
 function Navbar() {
+    
     const navigate = useNavigate(); 
 
-    /* LOGO -> HOMEPAGE */
     const handleLogoClick = () => {
     console.log("clicked logo");
     navigate("/");

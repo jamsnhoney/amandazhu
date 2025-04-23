@@ -6,7 +6,7 @@ import Homepage from './pages/Homepage';
 import Extracurriculars from './pages/Extracurriculars';
 import Bioinformatics from './pages/Bioinformatics';
 import DesignStuffPage from './pages/DesignStuffPage'
-import GraphicIllustrationPage from './pages/GraphicIllustration';
+// import GraphicIllustrationPage from './pages/GraphicIllustration';
 import HackathonsPage from './pages/Hackathons';
 import Contactpage from './pages/ContactPage'
 
