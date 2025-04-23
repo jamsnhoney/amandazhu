@@ -18,9 +18,7 @@ function Bioinformatics() {
                 <p> A research paper I wrote over 4 months, applying AI techniques into the world of bioinformatics.
                     i learned how to apply different AI techniques: CSPs, HMMs, CNNs into various DNA sequence analyses (Smith-Waterman, MSA, DeepBind, etc.).
                     (written jan-april 2025, for CISC 352 taught by Professor Christian Muise)</p>
-                <button> pdf document </button>
             </div>
-
         </main>
     );
 }
