@@ -1,0 +1,51 @@
+.navbar-main {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: #EFEFEF;
+    font-family: 'BR Firma', sans-serif;
+    color: #282828;
+}
+
+.navbar-LEFT {
+    width: 30%;
+    padding-top: 1.5%;
+    padding-left: 10%;
+}
+
+.navbar-LEFT img{
+    width: 70px;
+}
+
+.navbar-RIGHT {
+    padding-right: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.navbar-RIGHT p {
+    padding-top: 0px;
+    padding-left: 5%;
+    font-size: 15px;
+    font-family: 'BR Firma', sans-serif;
+}
+.navbar-BUTTON {
+    padding: 5%;
+}
+.navbar-RIGHT button {
+    background-color: #282828;
+    color: white;
+    font-family: 'BR Firma', sans-serif;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .navbar-RIGHT button:hover {
+    background: none;
+    border: 1px solid #282828;
+    color: #282828;
+  }

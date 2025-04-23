@@ -1,0 +1,147 @@
+.extracurr-main {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 100vw;
+    background-color: white;
+    font-family: 'BR Firma', sans-serif;
+}
+
+.extra-title h1 {
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'BR Firma', sans-serif; 
+}
+
+/* GALLERY */
+.extra-GALLERY {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+/* EXTRA LEFT */
+.extra-left {
+    padding-left: 5%;
+    width: 50%
+}
+.extra-left h1{
+    font-family: 'BR Firma', sans-serif;
+    padding-bottom: 2%;
+}
+.qux-img-wrapper {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.qux-img-wrapper img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+    border-radius: 5px;
+}
+.qux-img-hover {
+    opacity: 0;
+}
+.qux-img-wrapper:hover .qux-img-hover {
+    opacity: 1;
+}
+.qux-img-wrapper:hover .qux-img-normal {
+    opacity: 0;
+}
+  
+.extra-left h3 {
+    font-family: 'BR Firma', sans-serif;
+    padding-top: 2%;
+}
+.extra-left p {
+    color: #282828;
+    font-family: 'BR Firma', sans-serif;
+
+}
+
+/* EXTRA MIDDLE */
+.extra-mid {
+    padding-left: 5%;
+    width: 50%
+}
+.extra-mid h1{
+    font-family: 'BR Firma', sans-serif;
+    padding-bottom: 2%;
+}
+.ccdc-img-wrapper {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.ccdc-img-wrapper img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+    border-radius: 5px;
+}
+.ccdc-img-hover {
+    opacity: 0;
+}
+.ccdc-img-wrapper:hover .ccdc-img-hover {
+    opacity: 1;
+}
+.ccdc-img-wrapper:hover .ccdc-img-normal {
+    opacity: 0;
+}
+  
+.extra-mid h3 {
+    font-family: 'BR Firma', sans-serif;
+    padding-top: 2%;
+}
+.extra-mid p {
+    color: #282828;
+    font-family: 'BR Firma', sans-serif;
+}
+
+/* EXTRA RIGHT */
+.extra-right {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 50%
+}
+.extra-right h1{
+    font-family: 'BR Firma', sans-serif;
+    padding-bottom: 2%;
+}
+.qwic-img-wrapper {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.qwic-img-wrapper img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+    border-radius: 5px;
+}
+.qwic-img-hover {
+    opacity: 0;
+}
+.qwic-img-wrapper:hover .qwic-img-hover {
+    opacity: 1;
+}
+.qwic-img-wrapper:hover .qwic-img-normal {
+    opacity: 0;
+}
+  
+.extra-right h3 {
+    font-family: 'BR Firma', sans-serif;
+    padding-top: 2%;
+}
+.extra-right p {
+    color: #282828;
+    font-family: 'BR Firma', sans-serif;
+}

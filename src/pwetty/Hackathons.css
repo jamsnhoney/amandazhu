@@ -1,0 +1,29 @@
+.hackathons-MAIN {
+    width: 90%;
+    padding: 5%;
+    background-color: #e1cfca;
+}
+
+/* TITLE */
+
+.hackathons-TITLE {
+    padding-top: 3%;
+}
+
+
+/* LEFT */ 
+
+.hackathons-LEFT {
+    padding: 3%;
+}
+
+/* RIGHT */
+.hackathons-RIGHT {
+    padding: 3%;
+    display: flex;
+}
+
+.hackathons-RIGHT img {
+    padding: 3%;
+    width: 250px;
+}

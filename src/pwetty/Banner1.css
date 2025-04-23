@@ -1,0 +1,16 @@
+.banner1-main {
+    height: 100px;
+    background-color: #C7C0B6;
+}
+
+.banner1-img {
+    display: flex;
+    justify-content: flex-end; /* pushes content to bottom */
+}
+
+.banner1-img img {
+    width: 100px; 
+    height: auto;
+    padding-right: 10%;
+    padding-top: 2%;
+}

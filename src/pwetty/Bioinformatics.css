@@ -1,0 +1,31 @@
+.bioinfo-main {
+    height: 100vh;
+    background-color: rgb(173, 166, 157);
+}
+
+/* BIO - TOP/TITLE */
+.bio-top h1 {
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.bio-top p {
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+
+/* BIO - FIRST*/
+.bio-paper h1 {
+    color: white;
+    padding-top: 5vh;
+    display: flex;
+}
+.bio-paper p {
+    display: flex;
+    color: white;
+}

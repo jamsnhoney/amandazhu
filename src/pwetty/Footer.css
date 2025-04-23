@@ -1,0 +1,40 @@
+.footer-MAIN {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    background-color: #EFEFEF;
+    font-family: 'BR Firma', sans-serif;
+}
+
+.footer-LEFT {
+    width: 70%;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+.footer-LEFT p {
+    font-family: 'BR Firma', sans-serif;
+    display: flex;
+}
+
+.footer-MIDDLE {
+    width: 40%;
+}
+.footer-MIDDLE img {
+    width: 100px;
+    padding-top: 20px;
+}
+
+/* FOOTER RIGHT */
+
+.footer-RIGHT {
+    width: 100%;
+    padding-right: 5%;
+    padding-top: 3.5%;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-RIGHT img {
+    width: 25px;
+    height: 25px;
+    padding-left: 10%;
+}

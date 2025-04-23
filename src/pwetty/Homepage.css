@@ -1,0 +1,51 @@
+.homepage-main {
+    display: flex;
+    height: 350px;
+}
+
+/* LEFT SIDE */
+.homepage-LEFT {
+    width: 5vw;
+}
+
+/* TITLE - MIDDLE */
+.homepage-title {
+    width: 60vw;
+}
+.homepage-main h1 {
+    color: #282828;
+    padding: 5px;
+    padding-top: 8%;
+    font-size: 50pt;
+}
+.homepage-title p {
+    color: #282828;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.homepage-title button {
+    background-color: #282828;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .homepage-title button:hover {
+    background: none;
+    border: 1px solid #282828;
+    color: #282828;
+  }
+  
+
+/* RIGHT SIDE */
+.homepage-RIGHT {
+    width: 35vw;
+    position: relative;
+}
+.homepage-RIGHT p {
+    padding: 10%;
+    justify-content: flex-end;
+}
