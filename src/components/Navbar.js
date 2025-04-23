@@ -14,12 +14,25 @@ function Navbar() {
     navigate("/");
     };
 
-    /* CONTACT ME -> CONTACT PAGE */
-    const handleNavigate = () => {
+    const handleNavigateBio = () => {
+        console.log("clicked contact");
+        navigate("/bioinformatics");
+        };
+
+    const handleNavigateDesign = () => {
+        console.log("clicked contact");
+        navigate("/design");
+        };
+
+    const handleNavigateExtra = () => {
+        console.log("clicked contact");
+        navigate("/extracurriculars");
+        };
+
+    const handleNavigateContact = () => {
         console.log("clicked contact");
         navigate("/contact");
         };
-        
   
     return (
         <main className="navbar-main">
@@ -27,12 +40,34 @@ function Navbar() {
                 <img src={logo_img} alt="wompwomp" />
             </div>
             <div className="navbar-RIGHT">
-                <p>bioinformatics & research</p>
-                <p>design &amp; creatives</p>
-                <p>extracurriculars</p>
+            <nav>
+                <p
+                    onClick={handleNavigateBio}
+                    style={{ cursor: "pointer"}}>
+                    bioinformatics & research
+                </p>
+            </nav>
+
+            <nav>
+                <p
+                    onClick={handleNavigateDesign}
+                    style={{ cursor: "pointer"}}>
+                    design & creatives
+                </p>
+            </nav>
+
+            <nav>
+                <p
+                    onClick={handleNavigateExtra}
+                    style={{ cursor: "pointer"}}>
+                    extracurriculars
+                </p>
+            </nav>
+
             <div className="navbar-BUTTON">
                 <nav>
-                    <button onClick={handleNavigate}>contact me </button>
+                    <button onClick={handleNavigateContact}>
+                    contact me </button>
                 </nav>
             </div>
 

@@ -8,7 +8,7 @@
 }
 
 .navbar-LEFT {
-    width: 30%;
+    width: 15vw;
     padding-top: 1.5%;
     padding-left: 10%;
 }
@@ -19,17 +19,15 @@
 
 .navbar-RIGHT {
     padding-right: 5%;
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: right;
 }
 
 .navbar-RIGHT p {
-    padding-top: 0px;
     padding-left: 5%;
     font-size: 15px;
-    font-family: 'BR Firma', sans-serif;
 }
 .navbar-BUTTON {
     padding: 5%;

@@ -5,7 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import Homepage from './pages/Homepage';
 import Extracurriculars from './pages/Extracurriculars';
 import Bioinformatics from './pages/Bioinformatics';
-import WebDesignPage from './pages/WebDesignPage'
+import DesignStuffPage from './pages/DesignStuffPage'
 import GraphicIllustrationPage from './pages/GraphicIllustration';
 import HackathonsPage from './pages/Hackathons';
 import Contactpage from './pages/ContactPage'
@@ -28,7 +28,6 @@ function App() {
             path="/"
             element={
               <>
-                <Bioinformatics/>
                 <Homepage />
                 <Heropage />
                 <Banner1 />
@@ -46,6 +45,25 @@ function App() {
               </>
             }
           />
+          <Route
+            path="/design"
+            element={
+              <>
+                <DesignStuffPage/>
+                <Footer/>
+              </>
+            }
+          />
+          <Route
+            path="/extracurriculars"
+            element={
+              <>
+                <HackathonsPage/>
+                <Footer/>
+              </>
+            }
+          />
+
           <Route
             path="/contact"
             element={ <>
