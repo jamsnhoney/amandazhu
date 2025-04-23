@@ -1,0 +1,8 @@
+START-UP;
+
+    npx create-react-app
+    npm start 
+
+LIBRARIES;
+
+    npm i react-typed   
