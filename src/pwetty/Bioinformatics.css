@@ -1,6 +1,6 @@
 .bioinfo-main {
     height: 100vh;
-    background-color: rgb(173, 166, 157);
+    background-color: white;
 }
 
 /* BIO - TOP/TITLE */
@@ -8,24 +8,28 @@
     padding-top: 5vh;
     display: flex;
     justify-content: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .bio-top p {
-    padding-top: 5vh;
+    padding-top: 3vh;
     display: flex;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
 /* BIO - FIRST*/
+.bio-paper {
+    padding-left: 5vw;
+}
 .bio-paper h1 {
-    color: white;
+    color: rgb(0, 0, 0);
     padding-top: 5vh;
     display: flex;
 }
 .bio-paper p {
+    padding-top: 2vh;
     display: flex;
-    color: white;
+    color: rgb(0, 0, 0);
 }

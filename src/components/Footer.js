@@ -21,15 +21,26 @@ function Footer() {
                 <img src={smiskiii}/>
             </div>
             <div className="footer-RIGHT">
-                <img src={mail}></img>
-                <img src={linkedin}></img>
-                <img src={shrimp}></img>
-                <img src={coffee}></img>
-                <img src={turtle}></img>
+
+                <a href="https://us.jellycat.com/sensational-seafood-shrimp/" target="_blank" rel="noopener noreferrer">
+                    <img src={mail} alt="ugotmail" className="clickable-image" />
+                </a>
+
+                <a href="https://us.jellycat.com/sensational-seafood-shrimp/" target="_blank" rel="noopener noreferrer">
+                    <img src={linkedin} alt="lockedin" className="clickable-image" />
+                </a>
 
 
                 <a href="https://us.jellycat.com/sensational-seafood-shrimp/" target="_blank" rel="noopener noreferrer">
                     <img src={shrimp} alt="shromp" className="clickable-image" />
+                </a>
+
+                <a href="https://us.jellycat.com/sensational-seafood-shrimp/" target="_blank" rel="noopener noreferrer">
+                    <img src={coffee} alt="cawfee" className="clickable-image" />
+                </a>
+
+                <a href="https://us.jellycat.com/sensational-seafood-shrimp/" target="_blank" rel="noopener noreferrer">
+                    <img src={turtle} alt="tortle" className="clickable-image" />
                 </a>
 
 
