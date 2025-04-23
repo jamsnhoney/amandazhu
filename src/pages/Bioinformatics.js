@@ -9,8 +9,8 @@ function Bioinformatics() {
                 <p>
                 as a fourth year biomedical computing student, i’ve had the <br></br>
                 opportunity to work on  my own research projects as well as aid others <br></br>
-                in theirs. i hope to work in a hospital to help the healthcare field with <br></br>
-                my computing skills. 
+                in theirs. i hope to work in a hospital to help the healthcare field in <br></br>
+                clinical research in the bioinformatics field.
                 </p>
             </div>
             <div className="bio-paper">

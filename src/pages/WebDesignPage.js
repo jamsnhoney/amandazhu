@@ -1,9 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
-import "../pwetty/WebDesignPage.css"
+import "../pwetty/DesignStuffPage.css"
 import dragElement from "../functions/StickersheetFx";
-
-import wdys_img from "../assets/web design dev/whatdoyousee.png"
 
 import sticker_bg from "../assets/stickers/background.png"
 import blue_circle_sticker from "../assets/stickers/blue-circle.png"
@@ -12,7 +10,7 @@ import green_circle_sticker from "../assets/stickers/green-circle.png"
 import purple_rect_sticker from "../assets/stickers/purple-rectangle.png"
 import yellow_circ_sticker from "../assets/stickers/yellow-circle.png"
 
-function WebdesignPage() {
+function DesignStuffPage() {
     useEffect(()=>{
         const stickers = document.querySelectorAll('.stkr')
         stickers.forEach((sticker)=>{
@@ -20,21 +18,33 @@ function WebdesignPage() {
         })
     },[])
     return(
-        <main className="web-design-main">
-            <div className="web-design-GALLERY">
-                <h1> web-design </h1>
-                <img src={wdys_img} alt="wompwomp"/>
-                <p>whatdoyousee.co</p>
-                <p>𓆝 𓆟 𓆞 𓆝 𓆟</p>
+        <main className="design-main">
+            <div className="design-title">
+                <h1> design & creatives </h1>
+                <p>
+                    i like creating for the sake of creating. ui, illustrations, product design, silly animations, a little bit of everything. even since co-founding a ux club, i find myself drawn to designing and marketing roles. i love the creative process and making s***. if you think it's bad, i think it's fun.
+                </p>
+                <p>
+                    more drag & drop stickers here btw. ➝ ➝ ➝ ➝
+                </p>
             </div>
-            {/* <div className="web-design-RIGHT">
-                <h1>website  - design + dev .</h1>
-                <p>this website .ᐟ</p>
-                <p>whatdoyousee.co</p>
-                <p>casuallycooldanceclub.co</p>
-                <p>couplii.co</p>
-            </div> */}
-            <p> drag & drop my stickers !</p>
+            <div className="design-gallery">
+                <p>
+                    thing
+                </p>
+                <p>
+                    thing
+                </p>
+                <p>
+                    thing
+                </p>
+                <p>
+                    thing
+                </p>
+                <p>
+                    thing
+                </p>
+            </div>
             <div className="sticker-sheet">
                 <img src={sticker_bg} alt="." id="bg_stkr"/>
                 <img src={blue_circle_sticker} alt="." id="bc_stkr" className = 'stkr'/>
@@ -48,4 +58,4 @@ function WebdesignPage() {
     );
 }
 
-export default WebdesignPage;
+export default DesignStuffPage;

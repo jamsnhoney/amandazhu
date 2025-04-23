@@ -33,7 +33,16 @@ function App() {
                 <Heropage />
                 <Banner1 />
                 <Extracurriculars />
-
+                <Footer/>
+              </>
+            }
+          />
+          <Route
+            path="/bioinformatics"
+            element={
+              <>
+                <Bioinformatics/>
+                <Footer/>
               </>
             }
           />

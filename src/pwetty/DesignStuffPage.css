@@ -1,0 +1,61 @@
+.design-main {
+    width: 100vw;
+    background-color: rgb(234, 184, 184);
+    display: flex;
+}
+
+/* TITLE */
+.design-title {
+    width: 40vw;
+    padding: 5%;
+}
+
+/* RIGHT */
+
+.design-RIGHT {
+    padding: 5%;
+}
+.design-RIGHT p{
+    padding-top: 5%;
+}
+
+
+/* STICKER SHEET */
+
+.sticker-sheet {
+    position: relative;
+}
+.sticker-sheet .stkr{
+    position: absolute;
+    cursor: pointer;
+}
+
+.sticker-sheet #bg_stkr {   /* background sheet */
+    width: 564px;
+}
+.sticker-sheet #bc_stkr {
+    width: 72px;
+    top: 50%;
+    left: 50%;
+}
+.sticker-sheet #bs_stkr {
+    width: 106px;
+    top: 20%;
+    left: 20%;
+}
+.sticker-sheet #gc_stkr {
+    width: 130px;
+    top: 20%;
+    left: 60%;
+}
+.sticker-sheet #pr_stkr {
+    width: 105px;
+    top: 60%;
+    left: 5%;
+
+}
+.sticker-sheet #yc_stkr {
+    width: 122px;
+    top: 60%;
+    left: 60%;
+}
