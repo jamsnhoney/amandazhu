@@ -12,7 +12,7 @@ function Footer() {
     return(
         <main className="footer-MAIN">
             <div className="footer-LEFT">
-                <p> design & coded by amanda zhu (april 2025) </p>
+                <p> design & coded by amanda zhu</p>
             </div>
             <div className="footer-MIDDLE">
                 <img src={smiskiii}/>
