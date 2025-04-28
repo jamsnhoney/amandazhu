@@ -1,9 +1,12 @@
-import Section from "../actual_components/Section";
+// Homepage2.js
+import React from "react";
+import Section from "../actual_components/Section"; // Ensure the path is correct
+import "../pwetty/Homepage2.css"; // Ensure the path is correct
 
-import bioimg1 from "../assets/hero_imgs/hero-bio.png"
-import bioimg2 from "../assets/hero_imgs/hero-bio2.png"
-import designimg1 from "../assets/hero_imgs/hero-design.png"
-import designimg2 from "../assets/hero_imgs/design2.png"
+import bioimg1 from "../assets/hero_imgs/hero-bio.png";
+import bioimg2 from "../assets/hero_imgs/hero-bio2.png";
+import designimg1 from "../assets/hero_imgs/hero-design.png";
+import designimg2 from "../assets/hero_imgs/design2.png";
 
 function Homepage2() {
   return (

@@ -1,21 +1,22 @@
+/* GalleryLinkedPage.css */
+
 .gallery-linked-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2vh 2vw;
-  }
-  
-  .gallery-linked-page img {
-    width: 100%;
-    max-width: 600px; /* or whatever size you want */
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-    transition: transform 0.3s ease;
-    cursor: pointer;
-  }
-  
-  .gallery-linked-page img:hover {
-    transform: scale(1.05);
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh 2vw;
+}
+
+.gallery-linked-page img {
+  width: 100%;
+  max-width: 600px; /* or whatever size you want */
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery-linked-page img:hover {
+  transform: scale(1.05);
+}

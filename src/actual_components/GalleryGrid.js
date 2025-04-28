@@ -1,3 +1,5 @@
+// GalleryGrid.js
+
 import React from 'react';
 import GalleryLinkedPage from '../actual_components/GalleryLinkedPage';
 import '../pwetty_components/GalleryGrid.css';
@@ -9,6 +11,7 @@ const GalleryGrid = ({ items }) => {
         <GalleryLinkedPage
           key={index}
           imageSrc={item.imageSrc}
+          hoverImageSrc={item.hoverImageSrc}
           linkHref={item.linkHref}
           altText={item.altText}
         />

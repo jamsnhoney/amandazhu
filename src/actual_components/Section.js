@@ -1,5 +1,7 @@
+/* Section.js */
+
 import React from "react";
-import "../pwetty/Homepage2.css";
+import "../pwetty/Section.css";
 
 function Section({ title, image1, image2, subheading, description }) {
   return (

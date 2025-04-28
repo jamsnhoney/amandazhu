@@ -2,24 +2,33 @@ import React from "react";
 import TitleAndCaption from '../actual_components/TitleAndCaption.js'; // title component
 import GalleryGrid from '../actual_components/GalleryGrid.js'; // img gallery component
 
-import image1 from '../assets/hackathons/drdodo.png';
-import image2 from '../assets/hackathons/weve.jpeg';
-import image3 from '../assets/hackathons/paperorchestra.png';
+import drdodo1 from '../assets/hackathons/drdodo.png';
+import drdodo2 from '../assets/hackathons/drdodo2.png'
+
+import weve1 from '../assets/hackathons/weve.png'
+import weve2 from '../assets/hackathons/weve2.png';
+
+import po1 from '../assets/hackathons/po1.png';
+import po2 from '../assets/hackathons/po2.png'
+
 
 function HackathonsPage() {
   const galleryItems = [
     {
-      imageSrc: image1,
+      imageSrc: drdodo1,
+      hoverImageSrc: drdodo2,
       linkHref: 'https://devpost.com/software/doctor-dodo',
       altText: 'dr dodo devpost',
     },
     {
-      imageSrc: image2,
+      imageSrc: weve1,
+      hoverImageSrc: weve2,
       linkHref: 'https://devpost.com/software/weve-weve-been-here-before',
       altText: 'Image 2 description',
     },
     {
-      imageSrc: image3,
+      imageSrc: po1,
+      hoverImageSrc: po2,
       linkHref: 'https://devpost.com/software/paper-ochestra',
       altText: 'Image 3 description',
     },

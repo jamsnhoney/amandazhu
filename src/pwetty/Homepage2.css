@@ -1,0 +1,28 @@
+/* Homepage2.css */
+.section-page-main {
+    display: flex;
+    flex-wrap: wrap; /* Allow for wrapping on smaller screens */
+    justify-content: space-between;
+    gap: 20px; /* Add some space between the sections */
+    padding: 20px;
+  }
+  
+  /* By default, each section takes 48% of the width (side by side on bigger screens) */
+  .section {
+    width: 48%; /* Ensure the sections are side by side on larger screens */
+    margin-bottom: 20px; /* Add some space below each section */
+  }
+  
+  /* Make the sections stack vertically on smaller screens */
+  @media screen and (max-width: 768px) {
+    .section-page-main {
+      flex-direction: column; /* Stack sections top-to-bottom */
+      align-items: center; /* Center the sections on small screens */
+    }
+  
+    .section {
+      width: 90%; /* Make each section take up more space on smaller screens */
+      margin-bottom: 20px; /* Space between the sections */
+    }
+  }
+  

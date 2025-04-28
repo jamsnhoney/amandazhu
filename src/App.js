@@ -10,9 +10,6 @@ import DesignStuffPage from './pages/DesignStuffPage'
 import HackathonsPage from './pages/Hackathons';
 import Contactpage from './pages/ContactPage'
 
-// hackathon page 
-import HacksPage from './pages/HacksPage';
-
 // components
 import Navbar from './components/Navbar';
 import Homepage2 from './components/Homepage2.js'
@@ -45,7 +42,6 @@ function App() {
             element={
               <>
                 <Bioinformatics/>
-                <HacksPage/>
                 <Footer/>
               </>
             }
