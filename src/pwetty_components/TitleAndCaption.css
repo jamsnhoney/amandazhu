@@ -1,0 +1,33 @@
+.title-caption-container {
+    padding: 5vh 8vw; /* top-bottom, left-right */
+    text-align: center;
+  }
+  
+  .title-caption-container h1 {
+    font-size: 2rem;
+    margin-bottom: 2vh;
+    color: #222;
+  }
+  
+  .title-caption-container p {
+    font-size: 1.25rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto; /* center if text is smaller than full width */
+  }
+  
+  /* responsive tweaks */
+  @media (max-width: 768px) {
+    .title-caption-container {
+      padding: 4vh 6vw;
+    }
+  
+    .title-caption-container h1 {
+      font-size: 2.2rem;
+    }
+  
+    .title-caption-container p {
+      font-size: 1rem;
+    }
+  }
+  

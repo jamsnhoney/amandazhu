@@ -20,6 +20,7 @@ import Footer from './components/Footer';
 import Banner1 from './components/Banner1'
 import GalleryLinkedPage from './actual_components/GalleryLinkedPage';
 import GalleryGrid from './actual_components/GalleryGrid';
+import TitleAndCaption from './actual_components/TitleAndCaption.js';
 
 
 // main app
