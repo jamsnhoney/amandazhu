@@ -30,7 +30,6 @@ function App() {
             path="/"
             element={
               <>
-                <PAGEPAGE/>
                 <Homepage />
                 <Heropage />
                 <Banner1 />
@@ -44,6 +43,7 @@ function App() {
             element={
               <>
                 <Bioinformatics/>
+                <PAGEPAGE/>
                 <Footer/>
               </>
             }
