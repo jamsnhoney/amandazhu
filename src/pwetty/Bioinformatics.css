@@ -1,6 +1,13 @@
 .bioinfo-main {
-    height: 100vh;
-    background-color: white;
+    width: auto;
+    height: auto;
+    background-color: #93B3CB;
+}
+.bioinfo-main p {
+    color: white;
+}
+.bioinfo-main h1 {
+    color: white;
 }
 
 /* BIO - TOP/TITLE */
@@ -8,28 +15,54 @@
     padding-top: 5vh;
     display: flex;
     justify-content: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .bio-top p {
-    padding-top: 3vh;
+    padding: 3vh 3vh 3vh 3vh;
     display: flex;
     justify-content: center;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
+
 
 
 /* BIO - FIRST*/
-.bio-paper {
-    padding-left: 5vw;
-}
-.bio-paper h1 {
-    color: rgb(0, 0, 0);
-    padding-top: 5vh;
+.bio-container {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh 5vw;
+    gap: 5vw; /* space between text and image */
 }
+
+.bio-paper {
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.bio-paper h1 {
+    padding-bottom: 2vh;
+}
+
 .bio-paper p {
     padding-top: 2vh;
-    display: flex;
-    color: rgb(0, 0, 0);
+}
+
+.bio-paper-img img {
+    width: 50vw;
+}
+
+/* RESPONSIVE: when screen width is less than 768px */
+@media (max-width: 768px) {
+    .bio-container {
+        flex-direction: column; /* stack vertically */
+        text-align: center;
+    }
+
+    .bio-paper-img img {
+        width: 80vw; /* make image smaller on mobile */
+        margin-top: 4vh;
+    }
 }

@@ -7,7 +7,6 @@ import Extracurriculars from './pages/Extracurriculars';
 import Bioinformatics from './pages/Bioinformatics';
 import DesignStuffPage from './pages/DesignStuffPage'
 // import GraphicIllustrationPage from './pages/GraphicIllustration';
-import PAGEPAGE from './pages/PAGEPAGE';
 import HackathonsPage from './pages/Hackathons';
 import Contactpage from './pages/ContactPage'
 
@@ -43,7 +42,6 @@ function App() {
             element={
               <>
                 <Bioinformatics/>
-                <PAGEPAGE/>
                 <Footer/>
               </>
             }
