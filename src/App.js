@@ -15,12 +15,9 @@ import HacksPage from './pages/HacksPage';
 
 // components
 import Navbar from './components/Navbar';
-import Heropage from './components/Heropage'
-import Footer from './components/Footer';
+import Homepage2 from './components/Homepage2.js'
 import Banner1 from './components/Banner1'
-import GalleryLinkedPage from './actual_components/GalleryLinkedPage';
-import GalleryGrid from './actual_components/GalleryGrid';
-import TitleAndCaption from './actual_components/TitleAndCaption.js';
+import Footer from './components/Footer';
 
 
 // main app
@@ -36,7 +33,7 @@ function App() {
             element={
               <>
                 <Homepage />
-                <Heropage />
+                <Homepage2 />
                 <Banner1 />
                 <Extracurriculars />
                 <Footer/>
