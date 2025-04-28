@@ -10,11 +10,16 @@ import DesignStuffPage from './pages/DesignStuffPage'
 import HackathonsPage from './pages/Hackathons';
 import Contactpage from './pages/ContactPage'
 
+// hackathon page 
+import HacksPage from './pages/HacksPage';
+
 // components
 import Navbar from './components/Navbar';
 import Heropage from './components/Heropage'
 import Footer from './components/Footer';
 import Banner1 from './components/Banner1'
+import GalleryLinkedPage from './actual_components/GalleryLinkedPage';
+import GalleryGrid from './actual_components/GalleryGrid';
 
 
 // main app
@@ -42,6 +47,7 @@ function App() {
             element={
               <>
                 <Bioinformatics/>
+                <HacksPage/>
                 <Footer/>
               </>
             }
